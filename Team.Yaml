@@ -1,0 +1,12 @@
+apiVersion: gremlin.com/v1alpha1
+kind: Team
+metadata:
+  name: my-team
+spec:
+  projects:
+  - name: my-project
+  - name: another-project
+  - name: third-project
+  members:
+  - user@example.com
+  - anotheruser@example.com

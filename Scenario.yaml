@@ -1,0 +1,14 @@
+apiVersion: gremlin.com/v1alpha1
+kind: Scenario
+metadata:
+  name: cpu-hog
+spec:
+  type: Resource
+  resource_selector:
+    type: Any
+    label_selector: "app=my-app"
+  actions:
+  - type: CPU
+    args:
+      percent: 50
+      duration: 30
