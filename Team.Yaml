@@ -4,9 +4,11 @@ metadata:
   name: my-team
 spec:
   projects:
-  - name: my-project
-  - name: another-project
-  - name: third-project
+  - name: first-project
+  - name: second-project
   members:
-  - user@example.com
-  - anotheruser@example.com
+  - tarun.khosla@nagarro.com
+  - punit.jain@nagarro.com
+  - madhav.jaiswal@nagarro.com
+  - shrajal.singh@nagarro.com
+  - mohit.sharma@nagarro.com 
